@@ -1,0 +1,38 @@
+h1 {
+    ont-family: fantasy;
+}
+div {
+    width:50%;
+    border:3px solid olive;
+    background-color: beige;
+}
+div ul {
+    list-style-type: circle;
+}
+a:link, a:visited {
+    color:#333;font-weight:bold
+}
+div ul li a:hover {
+    text-shadow:2px 2px 2px gray;
+    font-style:italic;
+}
+.green {
+    color:green;
+    font-weight:bold;
+    font-family: '궁서';
+    text-decoration: underline wavy 2px red;
+}
+
+table{
+    background-color: beige;
+    border-collapse: collapse;
+    border-radius: 0 0 20px 20px;
+}
+
+.thead th{
+    background-color:tomato;
+    border-bottom:2px solid rgba(97, 12, 12, 0.842);
+    margin:0;padding:0;
+}
+
+

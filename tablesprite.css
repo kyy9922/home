@@ -1,0 +1,38 @@
+table {
+    border:solid 3px #000;
+    border-collapse: separate;
+    text-align:center;
+    background:burlywood;
+    empty-cells: hide;
+}
+
+td {border:dashed 1px #ddd}
+
+.up {
+    width:59px;
+    height:62px;
+    background-position: 0 0;
+    background-image: url(../img/img1.png);
+    text-indent: -9999px;
+}
+.down {
+    width:59px;
+    height:62px;
+    background-position: -59px 0;
+    background-image: url(../img/img1.png);
+    text-indent: -9999px;
+}
+.right {
+    width:59px;
+    height:62px;
+    background-position: -118px 0;
+    background-image: url(../img/img1.png);
+    text-indent: -9999px;
+}
+.left {
+    width:59px;
+    height:62px;
+    background-position: -180px 0;
+    background-image: url(../img/img1.png);
+    text-indent: -9999px;
+}

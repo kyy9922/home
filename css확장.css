@@ -1,0 +1,27 @@
+div{
+    width:200px;height:50px;
+}
+.outline_offset {
+    background:rgb(23, 23, 168);
+    outline:1px solid yellow ;
+    border:1px solid black;
+    outline-offset:1px
+}
+
+.box-sizing{
+    position:relative;
+    top:30px;
+    background:bisque;
+}
+
+.flex_c{
+    background-color:antiquewhite;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap :wrap;
+}
+.flex_c p {
+    background:brown;
+    align-self: baseline;
+}
